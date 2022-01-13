@@ -25,7 +25,7 @@ namespace CityBank_bankend.Controllers
         #region Api for creating BankAccount
         [HttpPost]
         [Route("/api/Admin/CreateAccount")]
-        public Guid CreateCustomer( CustomerAccount cusomter)
+        public Guid CreateCustomer( CustomerAccountModel cusomter)
         {
             if (cusomter == null)
             {
@@ -40,7 +40,7 @@ namespace CityBank_bankend.Controllers
         #region Api for getting customer account
         [HttpGet]
         [Route("/api/Admin/GetCustomer/{id:int}")]
-        public CustomerBankAccount GetCustomer(int id)
+        public CustomerBankAccountModel GetCustomer(int id)
         {
             AdminRepositrory ar = AdminRepositrory.GetInstance();
             var result=ar.GetCustomer(id);
@@ -51,7 +51,7 @@ namespace CityBank_bankend.Controllers
         #region Api for Updating account
         [HttpPut]
         [Route("/api/Admin/UpdateAccount")]
-        public bool UpdateAccount(CustomerBankAccount Customer)
+        public bool UpdateAccount(CustomerBankAccountModel Customer)
         {
             if (Customer == null)
             {

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BBd615PGIok6m5SUvvyZyrlhBdi0wpxcLnlkDc+33VtGeb3JCjKGntKj6hj3u9CXFj6Vmhyi3cMmLo+2IMXofQ==",
+  "dgSpecHash": "Q2Xu0eAL/Cs1pemEgz+Nz4DGiG3jTCAgpSqrsoZoQbAFkVemuh15yRRUO+mPqD6maXxDoiQJyiojVwS3d1WAyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Habuarra\\source\\repos\\CityBank_bankend\\CityBank_bankend\\CityBank_bankend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Habuarra\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\Habuarra\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Habuarra\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\Habuarra\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",

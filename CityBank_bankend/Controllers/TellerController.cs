@@ -14,7 +14,7 @@ namespace CityBank_bankend.Controllers
         #region Api for Deposit
         [HttpPut]
         [Route("/api/teller/deposit")]
-        public double Deposit(DepositWithdraw account)
+        public double Deposit(DepositWithdrawModel account)
         {
             TellerRepository tr = new TellerRepository();
             double result= tr.Deposit(account.id, account.mony);
@@ -25,7 +25,7 @@ namespace CityBank_bankend.Controllers
         #region Api for Withdraw
         [HttpPut]
         [Route("/api/teller/withdraw")]
-        public string withdraw(DepositWithdraw account)
+        public string withdraw(DepositWithdrawModel account)
         {
             TellerRepository tr = new TellerRepository();
             string result = tr.Withdraw(account.id, account.mony);
